@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 1. Load the dataset (tab-separated)
-df = pd.read_csv(r"C:\Users\kamaldeep\Documents\marketing_campaign.csv", sep="\t")
+df = pd.read_csv(r"path")
 
 # 2. Fill missing Income values with median
 df['Income'] = df['Income'].fillna(df['Income'].median())
